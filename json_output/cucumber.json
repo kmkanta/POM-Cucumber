@@ -1,0 +1,198 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login Test",
+        "description": "",
+        "id": "register-to-facebook-application;login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7334351954,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 8
+                }
+              ],
+              "location": "UserLoginStepDefs.launch_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5862813361,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter application url",
+            "match": {
+              "location": "UserLoginStepDefs.enter_application_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58327,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter username and password fields",
+            "match": {
+              "location": "UserLoginStepDefs.enter_username_and_password_fields()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61126,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on submit button",
+            "match": {
+              "location": "UserLoginStepDefs.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1618823711,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "UserLoginStepDefs.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register to facebook Application",
+    "description": "",
+    "id": "register-to-facebook-application",
+    "keyword": "Feature",
+    "uri": "Register.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login Test",
+        "description": "",
+        "id": "login-to-facebook-application;login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4492248360,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 8
+                }
+              ],
+              "location": "UserLoginStepDefs.launch_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6076592498,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter application url",
+            "match": {
+              "location": "UserLoginStepDefs.enter_application_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65326,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter username and password fields",
+            "match": {
+              "location": "UserLoginStepDefs.enter_username_and_password_fields()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47128,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on submit button",
+            "match": {
+              "location": "UserLoginStepDefs.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132985,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on login home page",
+            "match": {
+              "location": "UserLoginStepDefs.user_is_on_login_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 982265835,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "UserLoginStepDefs.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to facebook Application",
+    "description": "",
+    "id": "login-to-facebook-application",
+    "keyword": "Feature",
+    "uri": "UserLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="26.36746">
+<testcase classname="Register to facebook Application" name="Login Test" time="14.816108">
+<system-out><![CDATA[Given launch "chrome" browser...............................................passed
+When enter application url..................................................passed
+Then enter username and password fields.....................................passed
+And click on submit button..................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to facebook Application" name="Login Test" time="11.551352">
+<system-out><![CDATA[Given launch "chrome" browser...............................................passed
+When enter application url..................................................passed
+Then enter username and password fields.....................................passed
+And click on submit button..................................................passed
+Then user is on login home page.............................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
